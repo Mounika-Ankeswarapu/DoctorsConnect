@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AppointmentListTVC" rowHeight="129" id="KGk-i7-Jjw" customClass="AppointmentListTVC" customModule="DoctorHere" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="129"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="129"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iz5-4A-xX7">
+                        <rect key="frame" x="0.0" y="8" width="381" height="110"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8m-Wp-5qB">
+                                <rect key="frame" x="12" y="12" width="80" height="80"/>
+                                <color key="backgroundColor" name="Pastel2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="gEY-gS-iQ3"/>
+                                    <constraint firstAttribute="width" constant="80" id="x5y-Vf-Ne4"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="vx1-fE-xdZ">
+                                <rect key="frame" x="107" y="25" width="259" height="42"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eleanor Fant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4b-75-hjp">
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" red="0.11764705882352941" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17 June 2020, 09:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aAe-El-qPn">
+                                        <rect key="frame" x="0.0" y="25" width="259" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.51372549019607838" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K8m-Wp-5qB" firstAttribute="top" secondItem="Iz5-4A-xX7" secondAttribute="top" constant="12" id="0Po-H1-lNH"/>
+                            <constraint firstAttribute="trailing" secondItem="vx1-fE-xdZ" secondAttribute="trailing" constant="15" id="7KA-g0-Zrq"/>
+                            <constraint firstItem="vx1-fE-xdZ" firstAttribute="top" secondItem="Iz5-4A-xX7" secondAttribute="top" constant="25" id="7ZZ-1e-Cl0"/>
+                            <constraint firstItem="vx1-fE-xdZ" firstAttribute="leading" secondItem="K8m-Wp-5qB" secondAttribute="trailing" constant="15" id="Scq-nv-Jl1"/>
+                            <constraint firstItem="K8m-Wp-5qB" firstAttribute="leading" secondItem="Iz5-4A-xX7" secondAttribute="leading" constant="12" id="vbu-Kv-XcE"/>
+                            <constraint firstAttribute="height" constant="110" id="ysO-1u-h4j"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Iz5-4A-xX7" secondAttribute="bottom" constant="8" id="KPI-7M-Dh7"/>
+                    <constraint firstItem="Iz5-4A-xX7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="OjR-br-yd1"/>
+                    <constraint firstAttribute="trailing" secondItem="Iz5-4A-xX7" secondAttribute="trailing" id="VFa-oi-0mS"/>
+                    <constraint firstItem="Iz5-4A-xX7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="hJm-2n-6Y2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="appointTimeLbl" destination="aAe-El-qPn" id="CQd-WY-Pl7"/>
+                <outlet property="mainView" destination="Iz5-4A-xX7" id="XY5-Ki-MKT"/>
+                <outlet property="patientNameLbl" destination="l4b-75-hjp" id="8hv-dd-1bU"/>
+                <outlet property="profileView" destination="K8m-Wp-5qB" id="SHR-t3-yNO"/>
+            </connections>
+            <point key="canvasLocation" x="170.22900763358777" y="-11.619718309859156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Pastel2">
+            <color red="0.82352941176470584" green="0.90196078431372551" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

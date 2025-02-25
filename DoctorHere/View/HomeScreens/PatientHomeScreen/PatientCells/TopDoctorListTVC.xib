@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopDoctorListTVC" rowHeight="137" id="KGk-i7-Jjw" customClass="TopDoctorListTVC" customModule="DoctorHere" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="418" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="418" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E06-tw-KPV">
+                        <rect key="frame" x="0.0" y="5" width="418" height="120"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOd-NN-zvf">
+                                <rect key="frame" x="19" y="19" width="100" height="85"/>
+                                <color key="backgroundColor" name="Pastel1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Rp9-aK-5pr"/>
+                                    <constraint firstAttribute="height" constant="85" id="kiA-p2-Aox"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fcl-Ho-qJu">
+                                <rect key="frame" x="129" y="25" width="274" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Justin Case" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQc-be-SBV">
+                                        <rect key="frame" x="0.0" y="0.0" width="77.333333333333329" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Tn2-DK-67R"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <color key="textColor" red="0.11764705882352941" green="0.12549019607843137" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dentist" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fDG-Vf-lpe">
+                                        <rect key="frame" x="0.0" y="25" width="46.333333333333336" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="vaQ-71-xpw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <color key="textColor" red="0.46666666666666667" green="0.51372549019607838" blue="0.5607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="No5-si-bIL">
+                                        <rect key="frame" x="0.0" y="50" width="187.33333333333334" height="20"/>
+                                        <subviews>
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lFQ-UU-gIs" customClass="HCSStarRatingView">
+                                                <rect key="frame" x="0.0" y="0.0" width="107" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="107" id="ACt-sQ-Vdf"/>
+                                                    <constraint firstAttribute="height" constant="20" id="fCR-i3-faS"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(16 reviews)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Boe-R7-Hu4">
+                                                <rect key="frame" x="109" y="0.0" width="78.333333333333314" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <color key="textColor" red="0.46666666670000001" green="0.51372549020000002" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fcl-Ho-qJu" firstAttribute="top" secondItem="E06-tw-KPV" secondAttribute="top" constant="25" id="2tA-HB-mZ5"/>
+                            <constraint firstItem="rOd-NN-zvf" firstAttribute="leading" secondItem="E06-tw-KPV" secondAttribute="leading" constant="19" id="Tfd-3z-ah1"/>
+                            <constraint firstAttribute="bottom" secondItem="fcl-Ho-qJu" secondAttribute="bottom" constant="25" id="cof-8t-WD5"/>
+                            <constraint firstAttribute="trailing" secondItem="fcl-Ho-qJu" secondAttribute="trailing" constant="15" id="fZQ-Ke-wJ4"/>
+                            <constraint firstItem="fcl-Ho-qJu" firstAttribute="leading" secondItem="rOd-NN-zvf" secondAttribute="trailing" constant="10" id="ojr-wU-vVN"/>
+                            <constraint firstItem="rOd-NN-zvf" firstAttribute="top" secondItem="E06-tw-KPV" secondAttribute="top" constant="19" id="sFC-I7-vBF"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="E06-tw-KPV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="H78-Iw-FqZ"/>
+                    <constraint firstAttribute="trailing" secondItem="E06-tw-KPV" secondAttribute="trailing" id="Hrt-T2-2dd"/>
+                    <constraint firstItem="E06-tw-KPV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="eMR-w5-Bfy"/>
+                    <constraint firstAttribute="bottom" secondItem="E06-tw-KPV" secondAttribute="bottom" constant="5" id="u0O-KH-NwF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="docNameLbl" destination="YQc-be-SBV" id="6Xt-Xg-eEx"/>
+                <outlet property="docSpecificationLbl" destination="fDG-Vf-lpe" id="doR-Gg-2mS"/>
+                <outlet property="imgView" destination="rOd-NN-zvf" id="Q9Y-sD-J5p"/>
+                <outlet property="mainView" destination="E06-tw-KPV" id="ffe-Li-gfQ"/>
+                <outlet property="numOfReviewsLbl" destination="Boe-R7-Hu4" id="Asw-rk-pTd"/>
+                <outlet property="starRatingView" destination="lFQ-UU-gIs" id="zc2-lV-EjW"/>
+            </connections>
+            <point key="canvasLocation" x="100.76335877862596" y="20.070422535211268"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="Pastel1">
+            <color red="0.97647058823529409" green="0.84705882352941175" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

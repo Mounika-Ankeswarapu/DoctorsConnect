@@ -1,0 +1,6 @@
+framework module Pods_DoctorHere {
+  umbrella header "Pods-DoctorHere-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,74 @@
+
+{
+  "doctors": [
+    {
+      "specialization": "Cardiologist",
+      "doctors": [
+        {
+          "name": "Dr. John Smith",
+          "rating": 4.8,
+          "img": "dr_john_smith.jpg",
+          "location": "New York, NY"
+        },
+        {
+          "name": "Dr. Sarah Johnson",
+          "rating": 4.7,
+          "img": "dr_sarah_johnson.jpg",
+          "location": "Boston, MA"
+        },
+        {
+          "name": "Dr. Michael Brown",
+          "rating": 4.9,
+          "img": "dr_michael_brown.jpg",
+          "location": "San Francisco, CA"
+        }
+      ]
+    },
+    {
+      "specialization": "Neurologist",
+      "doctors": [
+        {
+          "name": "Dr. Emily Davis",
+          "rating": 4.6,
+          "img": "dr_emily_davis.jpg",
+          "location": "Los Angeles, CA"
+        },
+        {
+          "name": "Dr. Olivia White",
+          "rating": 4.7,
+          "img": "dr_olivia_white.jpg",
+          "location": "Miami, FL"
+        },
+        {
+          "name": "Dr. James Miller",
+          "rating": 4.8,
+          "img": "dr_james_miller.jpg",
+          "location": "Seattle, WA"
+        }
+      ]
+    },
+    {
+      "specialization": "Dentist",
+      "doctors": [
+        {
+          "name": "Dr. Robert Wilson",
+          "rating": 4.9,
+          "img": "dr_robert_wilson.jpg",
+          "location": "Chicago, IL"
+        },
+        {
+          "name": "Dr. Sophia Martinez",
+          "rating": 4.7,
+          "img": "dr_sophia_martinez.jpg",
+          "location": "Houston, TX"
+        },
+        {
+          "name": "Dr. Daniel Lee",
+          "rating": 4.8,
+          "img": "dr_daniel_lee.jpg",
+          "location": "San Diego, CA"
+        }
+      ]
+    }
+  ]
+}
